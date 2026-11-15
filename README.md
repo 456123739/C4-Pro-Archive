@@ -19,7 +19,9 @@
 | 文件 | 大小 | SHA-256 | 说明 |
 |------|------|---------|------|
 | `server-runtime.tar.zst` | 132 MiB | `03274ad0…b3640fdc` | 可直接跑的 Forge 1.20.1-47.4.16 专用服务器运行时（libraries + config + mods + eula/ops/server.properties），解压即用；**不含 world**（见下） |
-| `c4pro-test-world-1.7.5.tar.zst` | 9.1 MiB | 见仓库内 `world/` | 自检跑过的测试存档（含 40×100 平台与远景 C4 区块），用于复现自检场景 |
+| `c4pro-test-world-1.7.5.tar.zst` | 9.1 MiB | `5abaa81f…b55e4` | 自检跑过的测试存档（含 40×100 平台与远景 C4 区块），用于复现自检场景 |
+| `gradle-8.8-bin.zip` | 132 MiB | `a4b41586…7dc612` | 构建工具链原版安装包（官方分发同名同哈希） |
+| `forge-installer.jar` | 8.4 MiB | `29e3d453…b6008f` | Forge 1.20.1-47.4.16 安装器 |
 
 ### 仓库内文件（小而重要）
 
@@ -56,13 +58,13 @@ cd C4-Pro-Archive
 
 ## 3. 工具链（**不**入库，按需下载）
 
-这些是可复现的公共下载，放在这里只记录**确切版本与校验值**，避免仓库里塞几百 MB 的 JDK：
+JDK 与其他项目共用，按用户要求**不删不入库**，只记录确切来源；Gradle 与 Forge 安装器已随 Release 托管（见上表）：
 
 | 组件 | 版本 | 来源 | SHA-256 |
 |------|------|------|---------|
-| Temurin JDK 17 | 17.0.20.1+1 | `https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/linux/OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz` | 未存档（当时未留存 tarball） |
-| Gradle | 8.8 | `https://mirrors.cloud.tencent.com/gradle/gradle-8.8-bin.zip` | `a4b41586…7dc612` |
-| Forge 安装器 | 1.20.1-47.4.16 | `https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.16/forge-1.20.1-47.4.16-installer.jar` | `29e3d453…b6008f` |
+| Temurin JDK 17 | 17.0.20.1+1 | `https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/linux/OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz` | 未存档（本机与其他项目共用，按需重新下载） |
+| Gradle | 8.8 | Release 内 `gradle-8.8-bin.zip`（原始来源 `https://mirrors.cloud.tencent.com/gradle/gradle-8.8-bin.zip`） | `a4b41586…7dc612` |
+| Forge 安装器 | 1.20.1-47.4.16 | Release 内 `forge-installer.jar`（原始来源 `maven.minecraftforge.net`） | `29e3d453…b6008f` |
 
 > 注：JDK 与 Gradle 目录在本机被其他项目共用，按用户要求**保留未删**；
 > 本仓库只存"重建它所需的信息"，不重复托管。
