@@ -1,0 +1,5 @@
+# Release env-2026.11 资产的 SHA-256（restore.sh 下载后自动校验）
+03274ad0deeb3824aa3a1143b9d96eeb446d0fd01831ebdd01eb01afb3640fdc  server-runtime.tar.zst
+5abaa81f37dddd26d401a3c8b3bd100ac8483042db620878ef4f2f4b7b9b55e4  c4pro-test-world-1.7.5.tar.zst
+a4b4158601f8636cdeeab09bd76afb640030bb5b144aafe261a5e8af027dc612  gradle-8.8-bin.zip
+29e3d45362e7b373f9022c8b3a512e50acfc3bbe5c76be48dedc753450b6008f  forge-installer.jar
