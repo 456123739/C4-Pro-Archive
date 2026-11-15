@@ -1,0 +1,165 @@
+result=PASS
+passed=162
+failed=0
+PASS beep interval at full fuse is 2s
+PASS beep interval at half fuse is 24 ticks
+PASS beep interval clamps at min
+PASS beep interval clamps at max
+PASS beep interval matches the original formula everywhere
+PASS beep interval never increases and stays in range
+PASS cue volume is full at zero distance
+PASS cue volume never drops below floor
+PASS cue volume decreases with distance
+PASS small push is tolerated
+PASS 0.9 block push is tolerated
+PASS 1.5 block walk is not tolerated
+PASS vertical knock-up is tolerated inside tolerance
+PASS shears defuse takes 5s
+PASS hand defuse takes 10s
+PASS hud packet roundtrip keeps kind
+PASS hud packet roundtrip keeps text
+PASS hud packet roundtrip keeps duration
+PASS defuse panel roundtrip keeps name
+PASS defuse panel roundtrip keeps progress
+PASS defuse panel kind
+PASS item use is accepted on allowed block
+PASS install progress packet is sent to planter
+PASS install duration is 3.5s
+PASS C4 entity was created
+PASS item stack was consumed
+PASS fuse starts at 40s
+PASS C4 已被安装 notice is broadcast
+PASS scoreboard state is PLACED
+PASS scoreboard position is stored
+PASS C4 is registered in tracker
+PASS C4 explodes after the fuse
+PASS scoreboard state is EXPLODED
+PASS explosion clears stored position
+PASS C4 已爆炸 notice is broadcast
+PASS beeps were emitted
+PASS beep count matches the documented rhythm
+PASS beeps accelerate over time
+PASS a player 5 blocks away cannot start a defuse
+PASS and is told to get closer
+PASS a player 3 blocks away can start a defuse
+PASS defuse starts with shears
+PASS defuse total is 5s
+PASS defuser name is synced for every client
+PASS defuse start notice is broadcast
+PASS defuse progress advances
+PASS defuse ticks are synced (UI source)
+PASS defuse progress panel is broadcast to every player
+PASS small push does not cancel defusing
+PASS progress keeps growing after push
+PASS second player cannot steal the defuse
+PASS steal attempt is told someone else is defusing
+PASS the original defuser keeps the defuse
+PASS walking away cancels defusing
+PASS cancel notice is broadcast
+PASS defuse can be restarted
+PASS C4 is removed after defuse
+PASS scoreboard state is DEFUSED
+PASS defuse notice is broadcast to everyone
+PASS NBT keeps remaining fuse
+PASS NBT keeps position
+PASS NBT keeps defuse state cleared
+PASS summoned C4 starts with a full fuse
+PASS summoned C4 does not explode immediately
+PASS summoned C4 initializes the scoreboard
+PASS summoned C4 broadcasts the planted notice
+PASS kill target is registered in tracker
+PASS kill target is recorded in saved data
+PASS /kill really removes the entity
+PASS /kill drops it from the tracker
+PASS /kill clears the saved position
+PASS /kill resets the scoreboard
+PASS orphan position is persisted
+PASS /c4clear tombstones orphan positions
+PASS /c4clear does not load the orphan chunk
+PASS /c4clear drops orphan positions
+PASS /c4clear remembers the orphan as a tombstone
+PASS /c4clear resets the scoreboard when nothing was loaded
+PASS /c4clear leaves no live C4 anywhere
+PASS /c4clear leaves no C4 in the tracker
+PASS /c4clear reports the ticking C4
+PASS /c4clear removes the ticking C4
+PASS /c4clear keeps the tracker empty
+PASS /c4clear clears saved data completely
+PASS tombstone is recorded
+PASS tombstoned C4 destroys itself
+PASS tombstone is consumed after use
+PASS tombstoned C4 never joins the tracker
+PASS a freshly planted C4 survives a cleared position
+PASS a reloaded C4 obeys the death list
+PASS dropped C4 is found by the locator
+PASS other dropped items are ignored
+PASS locator only returns C4 item entities
+PASS locator respects the radius
+PASS locator finds it again inside the radius
+PASS locator caps the number of markers
+PASS picked-up C4 leaves the world
+PASS picked-up C4 no longer shows a marker
+PASS picked-up C4 goes into the inventory
+PASS a re-dropped C4 shows the marker again
+PASS marker scale is clamped at the low end
+PASS marker scale is clamped at the high end
+PASS marker scale grows with distance
+PASS marker is invisible beyond the range
+PASS marker is fully visible inside 72% of the range
+PASS marker fades out gradually
+PASS marker fades monotonically
+PASS marker bobbing stays subtle
+PASS marker pulse stays inside 0.5~1.0
+PASS a marker straight ahead is on screen
+PASS a marker a bit above the crosshair is still on screen
+PASS a marker far to the right is off screen
+PASS off-screen right points right
+PASS off-screen above points up
+PASS off-screen down-left points down-left
+PASS a marker behind the player is off screen
+PASS turning around puts the marker behind
+PASS a team that may not plant gets the C4 taken away
+PASS the taken C4 really lands on the ground as an item
+PASS the dropped item is flagged as a C4 drop
+PASS marker config range is inside the allowed window
+PASS planting player resolves to the install team
+PASS defusing player resolves to the defuse team
+PASS install team must NOT be able to defuse
+PASS install team gets a refusal message
+PASS no defuse is running after that refusal
+PASS defuse team CAN defuse
+PASS defuse team must NOT be able to plant
+PASS defuse team gets a refusal message
+PASS nothing was planted by the defuse team
+PASS install team CAN start planting
+PASS install team really planted a C4
+PASS install team still cannot defuse when the defuse list is empty
+PASS it is told it belongs to the planting team
+PASS a teamless player may still defuse when the list is empty
+PASS config team names are trimmed
+PASS config team names are deduplicated
+PASS an explicit empty entry is kept as the teamless marker
+PASS a padded config entry still matches the real team name
+PASS plant plays the original c4plant voice at 1.0
+PASS the 40s countdown is no longer blasted as one whole file
+PASS plant syncs the countdown track to nearby players instead
+PASS no self-made beep sound (c4beep) is played
+PASS beeps use the vanilla block.note_block.hat at 1.5
+PASS defuse can start for the sound test
+PASS defuse completion plays the original ctw at 1.5
+PASS explosion plays the original tw at 10.0 / 0.8
+PASS countdown segments are contiguous
+PASS countdown segments cover the whole fuse
+PASS segment index for 0ms is the first segment
+PASS segment index for 20s starts at or before 20s
+PASS a nearby player is synced to 0s right after planting
+PASS the countdown sync carries an audible volume
+PASS a latecomer is synced to the current position
+PASS a latecomer is not restarted from 0s
+PASS defuse starts for the countdown stop test
+PASS defusing stops the countdown track
+PASS real server ticks advance the fuse
+PASS fuse advances at roughly 20 ticks per second
+PASS beeps keep coming from the real tick loop
+PASS far C4 chunk stays loaded while armed
+PASS far C4 keeps counting down with no player nearby

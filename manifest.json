@@ -1,0 +1,302 @@
+{
+  "project": "C4 Pro",
+  "snapshot": "env-2026.11",
+  "created": "2026-11-15",
+  "mod_repo": "https://github.com/456123739/C4-Pro",
+  "mod_version_at_snapshot": "1.7.5",
+  "selftest_baseline": {
+    "selftest_checks": 162,
+    "jar_checks": 229
+  },
+  "total_bytes": 333499824,
+  "entries": [
+    {
+      "path": "README.md",
+      "bytes": 4566,
+      "sha256": "8ab1c4ad1423428f4a01a2dc790e2ea9c39044ffb7ac919dadd34fe31467fbf0",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "restore.sh",
+      "bytes": 2406,
+      "sha256": "85b2c2e96d433689e9eccdbca59290880b36bdffda5b33aa85155ebb9dc9c076",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "tools/gen_countdown_segments.py",
+      "bytes": 7011,
+      "sha256": "783f461d66194c390433c7833356fefa887fd94d02d2a9874bede9895ff71be7",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "tools/gen_marker_textures.py",
+      "bytes": 4744,
+      "sha256": "a3cde778da3d3f645adefcc911027e528cbf71973d9a20982bb82c7afe6909ad",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "tools/live_test_171.sh",
+      "bytes": 1599,
+      "sha256": "a306a975c000d976395a2ea69421abb31c18792374ba0dabc826af58c26626f0",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "tools/live_test_restart.sh",
+      "bytes": 1342,
+      "sha256": "a177d5815a50a3678d91dc0c56f319607264b301bf0618869ca5982e9d840651",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "tools/push_via_api.py",
+      "bytes": 2874,
+      "sha256": "c0b10a4df2658d61a4b54e083633a76f42c495fa3392ebdfcd3c699c94edb6a4",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "tools/update_files.py",
+      "bytes": 1812,
+      "sha256": "0b4f5f93bb8de91790ea3410d8f8f485501ef7e2a4896acd4866a2e0a33be121",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "tools/verify_jar.py",
+      "bytes": 8212,
+      "sha256": "3939a680afe9779701c01bbcc58fbe2f4fff79ae81664af2437b444695288602",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "logs/c4-selftest-report-1.7.5.txt",
+      "bytes": 6761,
+      "sha256": "e8bf1bb2e06c7bac8a6cad70f99b9b4bc793caf3bc149407f14760760c1e565d",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "logs/live-171-restart-a.log.gz",
+      "bytes": 1863,
+      "sha256": "0c5d70033ecdaf627af80851f5b09953123f3488d83bfdd259081849930bb097",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "logs/live-171-restart-b.log.gz",
+      "bytes": 2224,
+      "sha256": "988fea890f88df5a869f7c73c612f5f0e0f1cfd087dbcd8128f08414d2b45409",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "logs/live-171.log.gz",
+      "bytes": 2180,
+      "sha256": "0faaab760cf059fdc2df6945fff8fc8495410d377ea9f99397811ccf74f27504",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "logs/live-check-far.log.gz",
+      "bytes": 1881,
+      "sha256": "1b71707b2c72eec1f5ca25297a7d1c17ec693a7b6054941bd5076c1b6050a61f",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "logs/selftest-171.log.gz",
+      "bytes": 3392,
+      "sha256": "b1f0869750c7632b9c2f3200665a5eb51fc76a70605e361cd14a950520d6a62a",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "logs/selftest-171b.log.gz",
+      "bytes": 3809,
+      "sha256": "21658fd43239a40bd75960cc33ccfcb3ec1885d0ae4da9444b22723898498356",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "jars/qis4c4-1.7.0.jar",
+      "bytes": 420937,
+      "sha256": "6e8fe6dea821af53e8073da032210bec5d0259cd9c8212583d80b70514fe92f0",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "jars/qis4c4-1.7.1.jar",
+      "bytes": 429246,
+      "sha256": "86d3d58102e65e3d42f3122726c35825b96062890247349d61d1205f1623b9cf",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "jars/qis4c4-1.7.2.jar",
+      "bytes": 464532,
+      "sha256": "001c72d82bf1664d8bb2f767c8c453145f73c8dc76937e64bf410ecf52cb0b3a",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "jars/qis4c4-1.7.3.jar",
+      "bytes": 468919,
+      "sha256": "f8aae2a7e9c2872eb07de992befc0eef9079504de0e39f9eb35d2ca54063314c",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "jars/qis4c4-1.7.4.jar",
+      "bytes": 804070,
+      "sha256": "00f1fd69ffa87951a8f3321c35c8d1da4274a23e622d08ea02913838cb76e574",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "jars/qis4c4-1.7.5.jar",
+      "bytes": 804073,
+      "sha256": "071dde37eb446eb6d647bab9af2f92ae02af497f425a9b7650fa873f4c25849e",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "world/c4pro-test-world-1.7.5.tar.zst",
+      "bytes": 9455265,
+      "sha256": "5abaa81f37dddd26d401a3c8b3bd100ac8483042db620878ef4f2f4b7b9b55e4",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "preview/behind_wall.png",
+      "bytes": 6849,
+      "sha256": "21d6fec7dd303395211e00c31601ba23ffe342d22628ae1b538bfd26df92d016",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "preview/behind_wall_zoom.png",
+      "bytes": 4800,
+      "sha256": "937cf48acf43b3a62491eb77d974f08b8e6bf56f7e1bb30cba93eff75fd3aea9",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "preview/far_48.png",
+      "bytes": 4879,
+      "sha256": "fab0fa6dc19005457e97d73855713aa6544efe70fff93abe2fecfc3c87907819",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "preview/far_48_zoom.png",
+      "bytes": 3720,
+      "sha256": "a4a38c6004d20e2337055c1c1e777ee4c4995188b2005ab355888b126d45c94c",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "preview/mid_24.png",
+      "bytes": 5157,
+      "sha256": "0f07c519811aab00dc8c20404cabe3f2d25e46f3ac29ff0f46f01ef72983205d",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "preview/mid_24_zoom.png",
+      "bytes": 4640,
+      "sha256": "5d9c483ab89060941adb1bb6119675d76cdb89a3fd6a4137634f3ac272192188",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "preview/near_open.png",
+      "bytes": 6542,
+      "sha256": "88e5038b1c4b8850e707e6d7b621d94156b433700416aa6b31fcee81628c7b48",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "preview/near_open_zoom.png",
+      "bytes": 5925,
+      "sha256": "3687ba8eead40c02be680f3f575eb035b517b8212029960a360e3091d6d99e08",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "preview/side.png",
+      "bytes": 6634,
+      "sha256": "f45a29153f31b2780fe7118273c9e78a2f992e1314d83836ca227b42056f15c0",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "preview/side_zoom.png",
+      "bytes": 1758,
+      "sha256": "7edbf56758045b23413ddf8d08e2998ac9d6a932be5143b6bb5fda924aaa2236",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "docs/GAMEPLAY.md",
+      "bytes": 14488,
+      "sha256": "7df5d0098cdc8d2448bcac2f457e9e909061051575b14af598e17ebdf4237668",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "docs/RELEASE_NOTES.md",
+      "bytes": 3033,
+      "sha256": "276bb39f42e4861eaf2385500568fef10bb758ff528ce824d47d3c8269d9f216",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "docs/changelog.txt",
+      "bytes": 13717,
+      "sha256": "0d8e76fbdef30dca9a484731eb17a81df76987dfb15f4a7c16f3b804cbb98c9e",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "source/C4-src.zip",
+      "bytes": 35793321,
+      "sha256": "9ea4cdeac9864f52fa27a128253f396ad89da8f6dd654f09729beea6b40a0603",
+      "kind": "git",
+      "note": ""
+    },
+    {
+      "path": "server-runtime.tar.zst",
+      "bytes": 137873888,
+      "sha256": "03274ad0deeb3824aa3a1143b9d96eeb446d0fd01831ebdd01eb01afb3640fdc",
+      "kind": "release",
+      "note": "Forge 1.20.1-47.4.16 专用服务器运行时（解压即用，不含 world）"
+    },
+    {
+      "path": "external/jdk17-temurin-17.0.20.1+1-linux-x64.tar.gz",
+      "kind": "external",
+      "url": "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/linux/OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+      "note": "构建工具链；本机与其他项目共用，未入库"
+    },
+    {
+      "path": "external/gradle-8.8-bin.zip",
+      "kind": "external",
+      "bytes": 138039528,
+      "sha256": "a4b4158601f8636cdeeab09bd76afb640030bb5b144aafe261a5e8af027dc612",
+      "url": "https://mirrors.cloud.tencent.com/gradle/gradle-8.8-bin.zip",
+      "note": "构建工具链"
+    },
+    {
+      "path": "external/forge-1.20.1-47.4.16-installer.jar",
+      "kind": "external",
+      "bytes": 8807227,
+      "sha256": "29e3d45362e7b373f9022c8b3a512e50acfc3bbe5c76be48dedc753450b6008f",
+      "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.16/forge-1.20.1-47.4.16-installer.jar",
+      "note": "服务器安装器"
+    }
+  ]
+}
