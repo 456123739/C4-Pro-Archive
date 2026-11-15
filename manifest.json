@@ -284,19 +284,19 @@
     },
     {
       "path": "external/gradle-8.8-bin.zip",
-      "kind": "external",
+      "kind": "release",
       "bytes": 138039528,
       "sha256": "a4b4158601f8636cdeeab09bd76afb640030bb5b144aafe261a5e8af027dc612",
       "url": "https://mirrors.cloud.tencent.com/gradle/gradle-8.8-bin.zip",
-      "note": "构建工具链"
+      "note": "构建工具链（随 Release env-2026.11 托管）"
     },
     {
       "path": "external/forge-1.20.1-47.4.16-installer.jar",
-      "kind": "external",
+      "kind": "release",
       "bytes": 8807227,
       "sha256": "29e3d45362e7b373f9022c8b3a512e50acfc3bbe5c76be48dedc753450b6008f",
       "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.16/forge-1.20.1-47.4.16-installer.jar",
-      "note": "服务器安装器"
+      "note": "构建工具链（随 Release env-2026.11 托管）"
     }
   ]
 }
