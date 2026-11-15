@@ -27,6 +27,12 @@ need curl
 command -v zstd >/dev/null 2>&1 || echo "提示：解压 .tar.zst 需要 zstd（apt install zstd）" >&2
 command -v sha256sum >/dev/null 2>&1 || { echo "缺少依赖: sha256sum" >&2; exit 1; }
 
+verify_asset() {
+  local name="$1"
+  grep -E "  ${name}$" "$ROOT/release-checksums.txt" | sha256sum -c --quiet -
+  echo "[ok  ] $name sha256 匹配"
+}
+
 download() {
   local name="$1"
   mkdir -p "$DL"
@@ -54,8 +60,10 @@ main() {
   [[ $CHECK_ONLY -eq 1 ]] && exit 0
 
   download server-runtime.tar.zst
+  verify_asset server-runtime.tar.zst
   if [[ $WITH_WORLD -eq 1 ]]; then
     download c4pro-test-world-1.7.5.tar.zst
+    verify_asset c4pro-test-world-1.7.5.tar.zst
   fi
 
   echo "[x   ] server-runtime.tar.zst"
